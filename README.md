@@ -1,5 +1,5 @@
 # Rapid Prototyping of Simple Optical Elements for the Terahertz Domain
-By [Christian Buhl Sørensen](https://vbn.aau.dk/en/persons/139637), [Anders Faarbæk Mikkelstrup](https://vbn.aau.dk/en/persons/143999) and [Esben Skovsen](https://vbn.aau.dk/en/persons/113858).
+By [Christian Buhl Sørensen](https://vbn.aau.dk/en/persons/139637) (Presenting author), [Anders Faarbæk Mikkelstrup](https://vbn.aau.dk/en/persons/143999) and [Esben Skovsen](https://vbn.aau.dk/en/persons/113858).
 
 This repository provides easy access to the supporting content of the poster presented on the IRMMW-THz conference in Paris, 2019. The entire repository is supplied as inspiration and a starting point. You are exceedingly welcome to fork and extend the work shown here.
 
