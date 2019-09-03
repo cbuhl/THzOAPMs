@@ -17,6 +17,14 @@ The STL files folder contains three relevant files as of now:
  - **d100mm_efl150mm_V1.stl**: Version 1, a simple model of an off-axis parabolic mirror. 
  - **d100mm_efl150mm_V2.stl**: This version does not print well. The added reference cut-outs are an absolute godsend during alignment, and should be included on all coming designs, but the ribs on the backside are not functional. It is more relevant to print at a lower infill, to save weight at the end. Or just not print the ribs. Furthermore, the angles on the mating surfaces does not match up with the V1 mount.
  
+### Suggestions for printing parameters
+The printing should be straight-forward, but there are a few tricks;
+ - Ensure that the shell-thickness is 2mm or higher. You need the stiffness of the outer shell, to polish it sucessfully. 
+ - The infill has not been found critical. The shown mirrors are printed at 20%. 
+ - PLA is the only material that has been tried. A slightly harder variety (PLA-max) has been used with success.
+ - Generally low transverse printing speeds have been applied. 100mm/s or less on an ultimaker 3.
+ - A 0.4mm nozzle diameter, with 0.2mm layer height has been used. The nozzle diameter should not be critical, as the transverse geometry is smooth on the optically relevant surfaces. The layer height should be kept low - this is the main contribution to the local surface roughness.
+ 
  
 ## Data analysis for the dimensional qualification
 The folder contains two notebooks, and an exported binary file describing the error in motion referenced to the best fit plane. 
