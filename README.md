@@ -13,9 +13,10 @@ The repository contains the poster (RapidPrototyping.pdf), a folder with the dat
 
 ## STL sample files
 The STL files folder contains three relevant files as of now:
- - **45degMountV1.stl**: The mounting element for the V1 of the mirrors. Note that the angles on the mirror interface are not compatible with the V2 mirror.
+ - **45degMountV1.stl**: The mounting element for the V1 of the mirrors. Note that the angles on the mirror interface are not compatible with the V2 mirror. The central flat on the edge should be a smidge longer than 32mm, and the angle between the flat and the facet surfaces should be 140deg, included angle. This means the included angle on the facets should be 100deg, with at least 32 mm between for solid 3-surface mounting. The mating facet on the mount is 10mm high. 
  - **d100mm_efl150mm_V1.stl**: Version 1, a simple model of an off-axis parabolic mirror. 
  - **d100mm_efl150mm_V2.stl**: This version does not print well. The added reference cut-outs are an absolute godsend during alignment, and should be included on all coming designs, but the ribs on the backside are not functional. It is more relevant to print at a lower infill, to save weight at the end. Or just not print the ribs. Furthermore, the angles on the mating surfaces does not match up with the V1 mount.
+ - **d100mm_efl150mm_V3.stl**: Version 3, without ribbing on the backside. This should print better. It still includes the alignment lines. Furthermore the geometry has been made compatible with the V1 mount.
  
 ### Suggestions for printing parameters
 The printing should be straight-forward, but there are a few tricks;
